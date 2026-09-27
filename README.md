@@ -1,3 +1,12 @@
+# Arcade@Home
+Console with games, outputting HDMI and Joysticks to control it
+
+## What is it?
+It is a combo of joysticks and main console which offers pixel games to play in multiplayer on any display with HDMI
+
+## Why did I build it?
+I saw that a lot of people did tamagotchi during their way, so I wanted to do similar but ended at gaming console 
+
 ## How to recreate it?
 It is not finished yet, but wait for updates
 
