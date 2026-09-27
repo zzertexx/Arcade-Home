@@ -1,0 +1,187 @@
+(kicad_symbol_lib (version 20210201) (generator TousstNicolas/JLC2KiCad_lib)
+  (symbol "DMG1012T-7"   (in_bom yes) (on_board yes)
+    (property "Reference" "Q" (id 0) (at 0 1.27 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "DMG1012T-7" (id 1) (at 0 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "footprint:SOT-523-3_L1.6-W0.8-P1.00-LS1.6-BR" (id 2) (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "https://item.szlcsc.com/145724.html" (id 3) (at -2.286 0.127 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "ki_keywords" "C20512" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C20512" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    
+    (symbol "DMG1012T-7_0_1"
+      (polyline
+        (pts
+          (xy 1.27000254000508 2.54000508001016)
+          (xy 1.27000254000508 -2.54000508001016)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54000508001016 3.5560071120142243)
+          (xy 2.54000508001016 1.524003048006096)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54000508001016 0.762001524003048)
+          (xy 2.54000508001016 -1.0160020320040641)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54000508001016 -1.7780035560071121)
+          (xy 2.54000508001016 -3.3020066040132083)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54000508001016 2.54000508001016)
+          (xy 6.350012700025401 2.54000508001016)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.350012700025401 5.08001016002032)
+          (xy 6.350012700025401 -5.08001016002032)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54000508001016 -2.54000508001016)
+          (xy 6.350012700025401 -2.54000508001016)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.572009144018288 -0.0)
+          (xy 4.572009144018288 -2.54000508001016)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27000254000508 -0.0)
+          (xy -1.27000254000508 -0.0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -6.35 -0.0 0)
+        (length 5.08)
+        (name "G" (effects (font (size 1 1))))
+        (number "1" (effects (font (size 1 1))))
+      )
+      (pin unspecified line
+        (at 6.35 -10.16 90)
+        (length 5.08001016002032)
+        (name "S" (effects (font (size 1 1))))
+        (number "2" (effects (font (size 1 1))))
+      )
+      (pin unspecified line
+        (at 6.35 10.16 270)
+        (length 5.08001016002032)
+        (name "D" (effects (font (size 1 1))))
+        (number "3" (effects (font (size 1 1))))
+      )
+      (polyline
+        (pts
+          (xy 4.572009144018288 -0.0)
+          (xy 2.54000508001016 -0.0)
+          (xy 3.5560071120142243 -0.25400050800101603)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54000508001016 -0.0)
+          (xy 3.5560071120142243 0.25400050800101603)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.1120142240284485 -0.5080010160020321)
+          (xy 5.588011176022352 -0.5080010160020321)
+          (xy 6.350012700025401 0.762001524003048)
+          (xy 7.1120142240284485 -0.5080010160020321)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.1120142240284485 0.762001524003048)
+          (xy 5.588011176022352 0.762001524003048)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27000254000508 -0.0)
+          (xy -1.27000254000508 -5.08001016002032)
+          (xy 6.350012700025401 -5.08001016002032)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81000762001524 -4.3180086360172725)
+          (xy 3.81000762001524 -5.842011684023368)
+          (xy 2.54000508001016 -5.08001016002032)
+          (xy 3.81000762001524 -4.3180086360172725)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54000508001016 -4.3180086360172725)
+          (xy 2.54000508001016 -5.842011684023368)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27000254000508 -5.842011684023368)
+          (xy 1.27000254000508 -4.3180086360172725)
+          (xy 2.54000508001016 -5.08001016002032)
+          (xy 1.27000254000508 -5.842011684023368)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
+)
