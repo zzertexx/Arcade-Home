@@ -524,9 +524,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/mkzer/Documents/GitHub/Arcade@Home/Gerber/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -661,7 +661,7 @@
         "uuid": "ecefa490-3ad4-4249-bbc3-25add46612a3"
       }
     ],
-    "used_designators": "SW4,U9-10,L3,D4,#PWR50,#PWR59-63,R20-21,R26-27,C21-23",
+    "used_designators": "H1-4,SW4,U9-10,L3,D4,#PWR50,#PWR59-63,R20-21,R26-27,C21-23",
     "variants": []
   },
   "sheets": [
