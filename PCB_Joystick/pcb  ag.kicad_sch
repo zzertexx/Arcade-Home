@@ -2237,6 +2237,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push_LED"
 			(pin_names
 				(offset 1.016)
@@ -3188,12 +3287,6 @@
 		(uuid "2554333f-b425-45fa-bd98-38f56c38a7b8")
 	)
 	(junction
-		(at 50.8 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ec500b9-1a71-406f-a86e-ac2d617cff2a")
-	)
-	(junction
 		(at 157.48 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3407,16 +3500,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 107.95) (xy 50.8 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3058f7ed-fc08-45fd-9b1b-4a4546b229ce")
-	)
-	(wire
-		(pts
 			(xy 78.74 76.2) (xy 80.01 76.2)
 		)
 		(stroke
@@ -3547,7 +3630,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 107.95) (xy 54.61 107.95)
+			(xy 43.18 107.95) (xy 54.61 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3654,16 +3737,6 @@
 			(type default)
 		)
 		(uuid "7a2e197d-7de1-4d28-83ba-ca90f8c53599")
-	)
-	(wire
-		(pts
-			(xy 43.18 107.95) (xy 50.8 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7af45747-4b38-4c7a-b9f9-aaa1e2a353cb")
 	)
 	(wire
 		(pts
@@ -4105,16 +4178,6 @@
 		)
 		(uuid "1bac34c2-ac9a-4605-a85e-377dbca58cc7")
 	)
-	(label "D+"
-		(at 43.18 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26aadde2-86a2-471a-bcb1-d0d14c9c7df6")
-	)
 	(label "3.2button.gpio0"
 		(at 219.71 107.95 180)
 		(effects
@@ -4174,16 +4237,6 @@
 			(justify right bottom)
 		)
 		(uuid "852666b6-c485-4d40-9a3c-1e0d547cdb02")
-	)
-	(label "D-"
-		(at 43.18 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8da77dbb-91d9-4ff8-8d5a-cee757f5f4e5")
 	)
 	(label "5.2button.gpio2"
 		(at 270.51 113.03 180)
@@ -7259,6 +7312,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 144.78 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d53c1de-98ca-4143-a124-5fea738265c3")
+		(property "Reference" "H4"
+			(at 147.32 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb  ag"
+				(path "/b72e76a5-96cf-4ad4-a9cb-7ea5fcec5e5b"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 248.92 82.55 0)
 		(unit 1)
@@ -7331,84 +7460,6 @@
 			(project "pcb  ag"
 				(path "/b72e76a5-96cf-4ad4-a9cb-7ea5fcec5e5b"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e949a1e-9041-4294-bb2b-1aeebfce44f5")
-		(property "Reference" "#PWR027"
-			(at 50.8 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprint:USB-C-SMD_10155435-00011LF"
-			(at 50.8 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5341e75-fed8-4afe-8e39-80fb3120c5ed")
-		)
-		(instances
-			(project "pcb  ag"
-				(path "/b72e76a5-96cf-4ad4-a9cb-7ea5fcec5e5b"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7892,6 +7943,82 @@
 			(project "pcb  ag"
 				(path "/b72e76a5-96cf-4ad4-a9cb-7ea5fcec5e5b"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 144.78 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9074216b-3326-4d8c-99ac-f9fa1b5749f5")
+		(property "Reference" "H2"
+			(at 147.32 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 144.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 144.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb  ag"
+				(path "/b72e76a5-96cf-4ad4-a9cb-7ea5fcec5e5b"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8779,6 +8906,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 170.18 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1b315ed-0d2b-444d-9480-455a375d8788")
+		(property "Reference" "H3"
+			(at 172.72 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 172.72 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 170.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb  ag"
+				(path "/b72e76a5-96cf-4ad4-a9cb-7ea5fcec5e5b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 166.37 68.58 0)
 		(unit 1)
@@ -9344,6 +9547,82 @@
 			(project "pcb  ag"
 				(path "/b72e76a5-96cf-4ad4-a9cb-7ea5fcec5e5b"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 119.38 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff1adc4e-49ae-4121-9dd6-b70e4546eaa6")
+		(property "Reference" "H1"
+			(at 121.92 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 121.92 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 119.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 119.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb  ag"
+				(path "/b72e76a5-96cf-4ad4-a9cb-7ea5fcec5e5b"
+					(reference "H1")
 					(unit 1)
 				)
 			)

@@ -697,7 +697,7 @@
         "uuid": "b72e76a5-96cf-4ad4-a9cb-7ea5fcec5e5b"
       }
     ],
-    "used_designators": "WROOM32D1-2,SW1-10,R6-12,J1-4,D1-8,#PWR1-14,#PWR26-31,U1-6,C1-3,BT1-2,4.7k1",
+    "used_designators": "WROOM32D1-2,SW1-10,R6-12,J1-4,D1-8,#PWR1-14,#PWR26-31,U1-6,C1-3,BT1-2,4.7k1,H1-5",
     "variants": []
   },
   "sheets": [
