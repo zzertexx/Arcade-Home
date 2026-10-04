@@ -16,6 +16,11 @@ I took my little bro with me to teach him hardware
 5. Connect HDMI
 6. Play!
 
+## Future Plans:
+* Enclosure for Joystick
+* Firmware for ESP32
+* Firmware for 
+
 ## Bill of Materials
 | Name | Price |
 | --- | --- |
@@ -51,6 +56,7 @@ I took my little bro with me to teach him hardware
 | 120K 0603 | 0.00$ | 
 | 100K 0603 | 0.00$ | 
 | Push Button x4 | 4.24$ |
+| ESP32 - SuperMini | 2.00$ |
 | Turn-ON Button | 1.3$ |
 | Microswitch x4 | 2$ |
 | TP4056 | 0.09$ |
