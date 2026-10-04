@@ -6,6 +6,7 @@ It is a combo of joysticks and main console which offers pixel games to play in 
 
 ## Why did I build it?
 I saw that a lot of people did tamagotchi during their way, so I wanted to do similar but ended at gaming console 
+I took my little bro with me to teach him hardware
 
 ## How to recreate it?
 1. Order both PCBs
@@ -14,6 +15,11 @@ I saw that a lot of people did tamagotchi during their way, so I wanted to do si
 4. Flush Firmware(not ready yet)
 5. Connect HDMI
 6. Play!
+
+## Future Plans:
+* Enclosure for Joystick
+* Firmware for ESP32
+* Firmware for 
 
 ## Bill of Materials
 | Name | Price |
@@ -50,6 +56,7 @@ I saw that a lot of people did tamagotchi during their way, so I wanted to do si
 | 120K 0603 | 0.00$ | 
 | 100K 0603 | 0.00$ | 
 | Push Button x4 | 4.24$ |
+| ESP32 - SuperMini | 2.00$ |
 | Turn-ON Button | 1.3$ |
 | Microswitch x4 | 2$ |
 | TP4056 | 0.09$ |
@@ -59,3 +66,8 @@ I saw that a lot of people did tamagotchi during their way, so I wanted to do si
 
 ## Images
 <img width="1642" height="1144" alt="image" src="https://github.com/user-attachments/assets/6db826d3-2c7a-4fa1-92dc-26b0d69f06b2" />
+<img width="1316" height="1030" alt="Screenshot 2026-10-05 003947" src="https://github.com/user-attachments/assets/28468944-fb21-4f26-9fd1-205f25f2285f" />
+<img width="407" height="488" alt="Screenshot 2026-10-04 234215" src="https://github.com/user-attachments/assets/f5374cdc-f35d-42cd-bb73-6a8521100f33" />
+<img width="1920" height="1080" alt="arcade_console (Assembly)" src="https://github.com/user-attachments/assets/4d6f2fa3-b087-46d8-8fc6-0ccda62a85a5" />
+
+
