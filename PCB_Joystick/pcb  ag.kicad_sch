@@ -4418,7 +4418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 73.66 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4714,7 +4714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 69.85 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4759,10 +4759,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "37d30720-259d-4b8c-96f9-a6abe98a665e")
+			(uuid "37d30720-259d-4b8c-96f9-a6abe98a665f")
 		)
 		(pin "2"
-			(uuid "911652b3-4995-4cf5-b0b7-dcc93d72dde1")
+			(uuid "911652b3-4995-4cf5-b0b7-dcc93d72dde2")
 		)
 		(instances
 			(project "pcb  ag"
