@@ -80,3 +80,51 @@ finish do pcb desing
 plus buttery
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b3f2e0e7-02cd-495f-b03b-d51955e50350" />
+
+# September 28: pcb shematic plus buttery
+
+ did pcb chematic buttery 
+ try to understand what i did
+
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4e231875-4d73-45a4-9b4e-663ef36f1116" />
+
+  # September 29:finish buttery pcb chematic
+
+  finish chematic 
+  start pcb buttery desing 
+
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b9210d0f-4397-4c86-8a67-720ddb34c350" />
+
+ # September 30: buttery's pcb desing 
+
+ aded some footprints 
+ pcb desing 
+
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/94fde8dc-5faf-41e8-930b-1cc19f457a5f" />
+
+  # October 01: fill bill of materials
+
+  fill bill of  materials
+  pcb desing 
+
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4df3ec54-6380-448a-85d7-470d321b4535" />
+
+  # October 02: fix mistakes
+
+  fix mistakes in chematic and desing 
+  
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/dec16275-924c-4849-82bb-b77788aff439" />
+
+
+  # October 03:3D desing try
+
+  try do 3D desing but it was sooo hard to do
+
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1093258c-228a-47a2-9ee6-7c906cb272ec" />
+
+  # October 04: try a lot 3D desing 
+
+  do a lot mistakes in 3d 
+ learn how to do 3D desing but it was very hard and i do a lot of different version 
+
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d2bdca16-6883-46a7-9deb-0993fbdc6ab1" />
