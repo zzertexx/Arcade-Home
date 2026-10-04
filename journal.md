@@ -21,6 +21,64 @@ Started working on schematics
 
 **Total time spent: 2h:30min**
 
+# September 26: Started Bill of Materials
+
+More work on schematics and addition of BOM
+
+<img width="1579" height="775" alt="image" src="https://github.com/user-attachments/assets/e1029b84-a335-48fc-9a5d-6052b18f5252" />
+
+**Total time spent: 2h:30min**
+
+# September 27: Addition of wireless
+
+More work on schematics, specifically addition of wireless hardware CYW43439
+
+<img width="1586" height="703" alt="image" src="https://github.com/user-attachments/assets/6dab603e-5be4-4e6b-8b2b-01bd665f3df7" />
+
+**Total time spent: 3h:30min**
+
+# September 29: Change of wireless system
+
+Found more easier way - Radio Module 2
+In CYW43439 needed to setup antenna, crystal, memory externally, while RM2 had all inside abstractly with less pinout
+
+<img width="1489" height="826" alt="image" src="https://github.com/user-attachments/assets/111be36a-6445-4805-bdf6-f88af3188dbc" />
+
+**Total time spent: 1h**
+
+# September 30: Getting closer to PCB design
+
+Finished schematics and almost done assigning footprints
+
+<img width="1421" height="800" alt="image" src="https://github.com/user-attachments/assets/13bc11d1-e215-4118-ab9f-799080a57402" />
+
+**Total time spent: 1h:30min**
+
+# October 1: Started PCB design
+
+Finally done with schematics and started placing footprints for PCB design
+
+<img width="1175" height="835" alt="image" src="https://github.com/user-attachments/assets/7cf06546-6093-484f-897e-e6bdb422317c" />
+
+**Total time spent: 2h:35min**
+
+# October 2: More work on PCB design
+
+Almost done with designing PCB
+
+<img width="1751" height="888" alt="image" src="https://github.com/user-attachments/assets/fe55f13f-8db0-41f5-a03f-1a1032f3d758" />
+
+**Total time spent: 2h:50min**
+
+# October 4: 3D ecnlosure
+
+Did enclosure for console
+
+<img width="2151" height="1199" alt="image" src="https://github.com/user-attachments/assets/4b784e98-e7cd-4f11-a039-08b689b014b8" />
+
+**Total time spent: 1h:30min**
+
+
 ---
 title: "Arcade at Home"
 author: "Amir"
